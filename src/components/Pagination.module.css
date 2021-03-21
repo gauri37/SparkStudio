@@ -1,0 +1,43 @@
+.pagination {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.pagination a {
+    border: 1px solid white;
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+/*
+ <h3 className={styles.title} key={index}>{todo.title}</h3>
+              <img src={todo.img} alt={todo.title} width="300" height="300" />
+*/
+
+.imageDisplay {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+   height: 150px;
+}
+a:hover {
+    color: black;
+    
+}
+
+.title {
+    color: white;
+    
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: rgb(175, 172, 172);}

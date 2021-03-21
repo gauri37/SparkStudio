@@ -1,0 +1,25 @@
+.container {
+    position: absolute;
+    top:40px;
+    right: 10px;
+
+}
+.searchBox {
+    display: flex;
+    margin-right: 20px;
+    width: 400px;
+}
+
+
+.btnSearch {
+    position: absolute;
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    right: 30px;
+    padding: 12px 15px;
+
+}
